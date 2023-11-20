@@ -6,4 +6,5 @@ def drawPieChart(data , xAxisLabel , yAxisLabel , title):
     plt.title(title);
     plt.legend(data[xAxisLabel]);
     plt.axis('equal')
+    plt.savefig(title)
     plt.show()

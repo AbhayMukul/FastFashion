@@ -24,11 +24,12 @@ def main(data):
     # PIE-CHART
         # gender wise carbon footprint (average)
     drawPieChart(carbonProducedByGender , 'gender' , 'genderCrabonProduced' , 'average footprint of each gender');
-    
+    drawPieChart(carbonProducedByGeneration , 'generationName' , 'carbonAverageProduced' , 'average footprint of each generation');
+        
     # LINE-CHART
         # temporal change in carbon footprint
     drawLineGraph(carbonProducedByGeneration , "generation" , "carbonAverageProduced" , "Geneational Age" , "Average Carbon Footprint in clothing in kg CO2e" , "Generational trend in Carbon Footprint in terms of clothing")
         # change in cloth buying trend
     drawLineGraph(carbonProducedByGeneration , "generation" , "generationClothBought" , "Geneational Age" , "Average cloths bought" , "Generational trend in buying cloths total");
     
-    
+    # analysis based on gender 

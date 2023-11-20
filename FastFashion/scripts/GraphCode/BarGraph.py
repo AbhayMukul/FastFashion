@@ -28,6 +28,7 @@ def DrawBarGraphForTwo(xData , yData1 , yData2 , xLabel , yLabel1 , yLabel2 , ti
     plt.xlabel(xLabel)    
     plt.title(title)
     plt.legend()
+    plt.savefig(title);
     plt.show()
     
 def bargraphCotton(data):
